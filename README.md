@@ -8,7 +8,4 @@
 
 - goto localhost:4200 and you'll get the app running
 
-Live demo:
 
-
-[<img src="https://github.com/mavenickk/whatmave/blob/master/whatmave_live.gif" width="600" height="270">](https://mavetwitter.herokuapp.com/)
