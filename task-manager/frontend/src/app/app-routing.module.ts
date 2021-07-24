@@ -7,6 +7,7 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { SignupPageComponent } from './pages/signup-page/signup-page.component';
 import { EditListComponent } from './pages/edit-list/edit-list.component';
 import { EditTaskComponent } from './pages/edit-task/edit-task.component';
+<<<<<<< HEAD
 import { HomeViewComponent } from './pages/home-view/home-view.component';
 import { BlogViewComponent } from './pages/blog-view/blog-view.component';
 
@@ -15,6 +16,11 @@ const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeViewComponent},
   { path: 'blog', component: BlogViewComponent},
+=======
+
+const routes: Routes = [
+  { path: '', redirectTo: '/lists', pathMatch: 'full' },
+>>>>>>> ee8261902fc67978f1ccc7ad79891758929fe528
   { path: 'new-list', component: NewListComponent },
   { path: 'edit-list/:listId', component: EditListComponent },
   { path: 'login', component: LoginPageComponent },
