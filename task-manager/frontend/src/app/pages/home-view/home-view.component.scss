@@ -1,0 +1,23 @@
+@import '../../../main-styles.scss';
+
+.links-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin:0 auto;
+
+}
+
+.task-button{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    //height: 200px;
+    //width: 200px;
+    padding: 20px;
+}
+
+.orig-buttons{
+    margin: 20px;
+}
